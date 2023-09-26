@@ -7,15 +7,15 @@
 - [X]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
     - Problem solved(ex1_1.ipynb): MSE value record under 3000
     - Problem solved(ex1_2.ipynb): MSE value record under 150
-        - ![ex_screenshot](./review_img1.png)
+        - ![ex_screenshot](review_img1.png)
     
 - [X]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
     - Project 1
         - Required annotaions on the below script
         - The following for loop is the part to find the values of W and b that minimize the loss, essentially the training part.
-        It would be helpful to include this comment to clarify its purpose.
-            -![ex_screenshot](./review_img2.png)  
+        It would be helpful to include this comment to clarify its purpose.  
+            -![ex_screenshot](review_img2.png)  
     - Project 2
         - Required more annotaions
         
