@@ -15,19 +15,19 @@
         - Required annotaions on the below script
         - The following for loop is the part to find the values of W and b that minimize the loss, essentially the training part.
         It would be helpful to include this comment to clarify its purpose.  
-            -![ex_screenshot](review_img2.png)  
+            - ![ex_screenshot](review_img2.png)  
     - Project 2
         - Required more annotaions
-        
+          
 - [X] **3. 에러가 난 부분을 디버깅하여 문제를 “해결한 기록을 남겼거나” 
 "새로운 시도 또는 추가 실험을 수행”해봤나요?**
     - Project 2
         - Min-max scaling on 'windspeed_2', 'atemp_2','humidity_2','month_2','hour_2' features
         - Retrieve W, b without using sklearn
-        
+          
 - [ ]  **4. 회고를 잘 작성했나요?**
-    - Please write the review of this project!
-        
+    - Please write the review of this project
+  
 - [X]  **5. 코드가 간결하고 효율적인가요?**
     - Recommend printing a subset of the output values
       ``` 
