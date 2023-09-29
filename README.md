@@ -1,6 +1,13 @@
 Hello,
 
+This is a space for Aiffel students.
 
-<img src="https://img.shields.io/badge/ThankyouforComingourSample1planet-C71A36?style=flat&logo=apachecassandra&logoColor=white"/>
+We are training in artificial intelligence for six months.
+
+Most of this course consists of projects.
+
+We will choose both CV models and NLP.
+
+<img src="https://img.shields.io/badge/ThankyouforComing-C71A36?style=flat&logo=apachecassandra&logoColor=white"/>
 
 
