@@ -5,7 +5,7 @@ import numpy as np
 
 torch.manual_seed(777)  # for reproducibility
 
-xy = np.loadtxt('data-03-diabetes.csv', delimiter=',', dtype=np.float32)
+xy = np.loadtxt('lectures/deeplearning_zerotoall/data-03-diabetes.csv', delimiter=',', dtype=np.float32)
 x_data = xy[:, 0:-1]
 y_data = xy[:, [-1]]
 

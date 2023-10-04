@@ -2,7 +2,7 @@
 import tensorflow as tf
 import numpy as np
 
-xy = np.loadtxt('../data-03-diabetes.csv', delimiter=',', dtype=np.float32)
+xy = np.loadtxt('lectures/deeplearning_zerotoall/data-03-diabetes.csv', delimiter=',', dtype=np.float32)
 x_data = xy[:, 0:-1]
 y_data = xy[:, [-1]]
 

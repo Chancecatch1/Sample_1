@@ -1,8 +1,10 @@
 # Lab 4 Multi-variable linear regression
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
 
-xy = np.loadtxt('../data-01-test-score.csv', delimiter=',', dtype=np.float32)
+
+xy = np.loadtxt('lectures/deeplearning_zerotoall/data-01-test-score.csv', delimiter=',', dtype=np.float32)
 x_data = xy[:, 0:-1]
 y_data = xy[:, [-1]]
 
@@ -31,9 +33,17 @@ tf.model.add(tf.keras.layers.Dense(units=1, input_dim=3, activation='linear'))
 # tf.model.add(tf.keras.layers.Activation('linear'))
 tf.model.summary()
 
-tf.model.compile(loss='mse', optimizer=tf.keras.optimizers.SGD(lr=1e-5))
-history = tf.model.fit(x_data, y_data, epochs=2000)
+tf.model.compile(loss='mse', optimizer=tf.keras.optimizers.Adam())
+history = tf.model.fit(x_data, y_data, epochs=20000)
 
 # Ask my score
 print("Your score will be ", tf.model.predict([[100, 70, 101]]))
 print("Other scores will be ", tf.model.predict([[60, 70, 110], [90, 100, 80]]))
+
+# Plot training loss
+plt.figure()
+plt.plot(history.history['loss'])
+plt.title('Model loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.show()
