@@ -1,7 +1,6 @@
-
 # AIFFEL Campus Online Code Peer Review Templete
 - Coder : MyungJun Lee
-- Reviewer :
+- Reviewer : Taemin Kim
 
 
 ## 루브릭
@@ -18,46 +17,57 @@
 # PRT(Peer Review Template)
 
 
-- [ ]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
-
+- [x]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
+      
+루브릭 1번 - 잘 수행 했습니다.
+  1. tfrecord<br/>
+    ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/58abc304-1900-4fc7-84e3-b02d2d6efe13)
   
-> 문제에서 요구하는 최종 결과물이 첨부되었는지 확인
-> 문제를 해결하는 완성된 코드란 프로젝트 루브릭 3개 중 2개, 퀘스트 문제 요구조건 등을 지칭
-> 해당 조건을 만족하는 코드를 캡쳐해 근거로 첨부
+  2. augmentation<br/>
+    ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/9f78be97-5414-41f3-a9af-3ebec43a88f9)
+
+  3. prior box<br/>
+    ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/6894b172-6483-446b-a58a-cf92bb084e26)
+
+
+  루브릭 2번 - face가 아닌 부분도 잡지만 잡은 부분의 점수는 좋습니다.<br/>
+  ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/872a3057-592f-4817-97d0-2de4baa0863b)
+
+
+  루브릭 3번 - 고양이 수염이 얼굴이 아닌 부분에 들어가긴 했지만 얼굴로 인식한 부분에는 잘 들어갔습니다.<br/>
+  ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/95e9a263-933c-4af9-aa8c-4c9f3caeabcc)
+
+
+   
 
                  
-- [ ]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
+- [x]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
+
+      핵심 적인 기술에 대한 부분에는 주석이 없지만, 랜드마크 만드는 부분에는 주석이 잘 작성돼어있습니다.
+  ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/3c7c35a4-322d-4180-bd9e-b037bfcc832f)
 
 
-> 해당 코드 블럭에 doc string/annotation이 달려 있는지 확인
-> 해당 코드가 무슨 기능을 하는지, 왜 그렇게 짜여진건지, 작동 메커니즘이 뭔지 기술.
-> 주석을 보고 코드 이해가 잘 되었는지 확인
-> 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
+
 
       
-- [ ] **3. 에러가 난 부분을 디버깅하여 문제를 “해결한 기록을 남겼거나”, "새로운 시도 또는 추가 실험을 수행”해봤나요?**
+- [x] **3. 에러가 난 부분을 디버깅하여 문제를 “해결한 기록을 남겼거나”, "새로운 시도 또는 추가 실험을 수행”해봤나요?**
 
-        
-> 문제 원인 및 해결 과정을 잘 기록하였는지 확인
-> 문제에서 요구하는 조건에 더해 추가적으로 수행한 나만의 시도, 실험이 기록되어 있는지 확인
-> 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
+      epoch 마다 가중치를 저장했습니다.
+  ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/9cad5fbe-db80-41e0-92a7-9e17a875231b)
 
 
-- [ ] **4. 회고를 잘 작성했나요?**
+
+- [x] **4. 회고를 잘 작성했나요?**
+
+      잘 작성했습니다.
+  ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/a25f5e41-10b7-4bbb-ad70-b3567632b512)
 
 
-> 주어진 문제를 해결하는 완성된 코드 내지 프로젝트 결과물에 대해 배운점과 아쉬운점, 느낀점 등이 기록되어 있는지 확인
-> 전체 코드 실행 플로우를 그래프로 그려서 이해를 돕고 있는지 확인
-> 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
 
-
-- [ ] **5. 코드가 간결하고 효율적인가요?**
-
- 
-> 파이썬 스타일 가이드 (PEP8) 를 준수하였는지 확인
-> 하드코딩을 하지않고 함수화, 모듈화가 가능한 부분은 함수를 만들거나 클래스로 짰는지
-> 코드 중복을 최소화하고 범용적으로 사용할 수 있도록 함수화했는지
-> 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
+- [x] **5. 코드가 간결하고 효율적인가요?**
+      
+      랜드마크를 만드는 함수를 잘 작성했습니다.
+  ![image](https://github.com/Chancecatch1/aiffel_quest_mj/assets/29370771/68166f6a-0416-4e5a-95b4-32ac29a72030)
 
   
 # 참고 링크 및 코드 개선
